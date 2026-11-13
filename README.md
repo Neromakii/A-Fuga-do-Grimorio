@@ -1,64 +1,33 @@
-# A-Fuga-do-Grimorio
-Fuga do Grimório
+#  Fuga do Grimório
+Feito Por:
+Nathan Vespasiano Fonseca RA: 22.124.086-4
+Felipe Pinheiro RA:
+André RA:
+Fernando Domingues RA:
 
-Fuga do Grimório é um jogo de plataforma 2D no estilo side-scroller com fortes elementos de metroidvania e uma estética dark fantasy estilizada. O jogador assume o controle de Pip, um mago corajoso que precisa escapar de uma academia de magia corrompida por forças sombrias.
+**Fuga do Grimório** é um jogo 2D no estilo *side-scroller* com elementos de **Dark Fantasy** e estéticas de **Metroidvania**. Acompanhe a jornada de fuga e rebelião de Pip nas profundezas de uma academia mágica corrompida.
 
- História
+---
 
-Na prestigiada Academia de Magia, nem tudo é o que parece. Pip, um mago habilidoso (que possui uma estatura menor, frequentemente subestimado por seus pares), descobre por acaso um segredo terrível: membros da academia estão manipulando a magia proibida das sombras na Ala Alquímica.
+## Sinopse
+**Pip** é um talentoso e experiente mago (que possui nanismo, contrastando com a arte estilizada do jogo). Após presenciar acidentalmente o uso de magia proibida das sombras por outros alunos na Ala Alquímica, ele é descoberto, capturado e jogado nas masmorras. Agora, Pip precisa usar sua magia de forma livre e travessa para escapar das celas, passar pelos capangas apavorados e sobreviver à perseguição do terrível **Líder do Conselho**.
 
-Descoberto pelos conspiradores, Pip é capturado, amarrado e jogado nas frias e escuras masmorras do castelo. Agora, com o terrível e implacável Líder do Conselho em seu encalço, Pip precisa usar todo o seu conhecimento mágico para se libertar, desvendar os mistérios do castelo e escapar antes que seja tarde demais.
+## Estrutura de Fases (Level Design)
 
- Características Principais (Features)
+| Fase | Ambiente | Descrição | Desafio Principal |
+| :--- | :--- | :--- | :--- |
+| **Fase 1** | **Masmorras Escuras** | O ponto de partida. Corredores de pedra fria, celas trancadas e capangas patrulhando em pânico. | Escapar da cela, esgueirar-se pelas sombras e dominar os feitiços básicos. |
+| **Fase 2** | **Ala Alquímica** | Tubulações de mana pulsante, poções instáveis, vidro estilhaçado e caldeirões transbordando. | Evitar armadilhas mágicas e confrontar inimigos fortalecidos por magia sombria. |
+| **Fase 3** | **Salão Real** | O ápice do castelo. Arquitetura imponente, vitrais sombrios e o trono do conselho. | A arena de confronto final e teste definitivo de habilidades. |
 
-Exploração Metroidvania: Desbloqueie novas magias e habilidades para acessar áreas secretas e rotas alternativas pelo castelo.
+## Mecânicas Principais (MDA)
+* **Movimentação Fluida:** Pulos duplos, *dash* dinâmico com a vassoura mágica e escalada em paredes.
+* **Sistema de Magia:** Uso de magias rápidas e travessas para atordoar inimigos, ativar mecanismos e resolver *puzzles* de ambiente.
+* **Furtividade e Ação:** Transição estratégica entre se esconder da visão dos capangas (usando as sombras) e o combate direto.
 
-Combate Mágico: Use o grimório e a varinha de Pip para conjurar feitiços contra alunos corrompidos e criaturas das sombras.
+## O Vilão: O Líder do Conselho
+Um mago alto, encapuzado e imponente. Sua mera aproximação exala uma aura esmagadora de magia roxa, capaz de aterrorizar até mesmo seus próprios capangas. 
 
-Atmosfera Dark Fantasy: Um mundo que mistura uma arte ilustrada cativante com um tom sombrio de mistério e perigo iminente.
+<b>Spoiler do Boss Final
+O confronto contra o Líder do Conselho possui progressão de fases. Durante a batalha no Salão Real, seus olhos mudam, sinalizando novos padrões de ataque brutais de magia das sombras, exigindo reflexos perfeitos no uso da vassoura.
 
-Chefes Desafiadores: Enfrente inimigos poderosos com progressão de fases e mecânicas únicas de ataque.
-
- O Mundo (Level Design)
-
-A jornada de fuga de Pip é dividida em três áreas principais de progressão:
-
-Fase 1: As Masmorras Escuras
-
-Ambiente: O ponto de partida. Celas frias, correntes, pouca iluminação e um clima de tensão.
-
-Objetivo: Libertar-se das cordas, recuperar sua varinha e encontrar a saída do subsolo, evitando ser detectado pelas patrulhas.
-
-Fase 2: A Ala Alquímica
-
-Ambiente: O local da conspiração. Salas repletas de tubulações de mana brilhantes (azul e roxa), caldeirões borbulhantes, poções voláteis e estantes de livros antigos.
-
-Objetivo: Resolver quebra-cabeças ambientais usando as tubulações e enfrentar os capangas encapuzados.
-
-Fase 3: O Salão Real
-
-Ambiente: O ápice do castelo. Arquitetura gótica, vitrais, tapeçarias e uma atmosfera de poder corrompido.
-
-Objetivo: O confronto final.
-
- Personagens
-
-Pip (O Protagonista): Um mago experiente e astuto. Apesar de seu tamanho e do estilo artístico o fazerem parecer inofensivo, ele é um conjurador poderoso e determinado a expor a verdade e sobreviver.
-
-Líder do Conselho (Boss Final): O mestre por trás da magia das sombras. Uma figura alta, encapuzada e imponente, cercada por uma aura roxa esmagadora. A batalha contra ele possui progressão de fases, indicadas pelo brilho de seus olhos e pela intensidade de sua aura.
-
-Capangas/Alunos Corrompidos: Inimigos comuns que patrulham o castelo. Usam o uniforme da escola, mas manipulam a fumaça roxa da magia proibida. São medrosos diante do chefe, mas cruéis com os prisioneiros.
-
- Design do Jogo (Estrutura MDA)
-
-Mechanics (Mecânicas): Movimentação 2D (pulo, dash), sistema de conjuração de magias (ataques básicos e feitiços que consomem mana), puzzles baseados em física e interações com o cenário (ex: caldeirões).
-
-Dynamics (Dinâmicas): A tensão de estar sendo caçado. O jogador precisa equilibrar a exploração cuidadosa com a necessidade de agir rápido em áreas dominadas pelos inimigos. O ganho gradual de poder altera a dinâmica de fuga para a de enfrentamento.
-
-Aesthetics (Estéticas):
-
-Desafio: Superar os obstáculos do castelo e os chefes.
-
-Fantasia: Imersão em um mundo mágico, escuro e vibrante.
-
-Descoberta: Explorar o castelo para entender a extensão da corrupção.
